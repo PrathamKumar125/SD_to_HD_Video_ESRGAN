@@ -1,0 +1,5 @@
+torchvision 
+torchaudio 
+torch
+glob2
+opencv-python
