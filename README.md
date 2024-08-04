@@ -1,5 +1,9 @@
 # SD_to_HD_Video_ESRGAN
-
+---
+Docker Image: 
+```
+docker pull prathamkumars125/sd_to_hd_video_esrgan:latest
+```
 ---
 
 This repository contains scripts and instructions to upscale a video using ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks).
