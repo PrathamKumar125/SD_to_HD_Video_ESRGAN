@@ -11,16 +11,24 @@ This repository contains scripts and instructions to upscale a video using ESRGA
 ## Steps to Upscale Video:
 
 ### 1. Clone Repository
-Clone the ESRGAN repository to your local machine:
+Firstly, Clone This repository to your local machine:
 
 ```
-git clone https://github.com/xinntao/ESRGAN ESRGAN_folder
+git clone https://github.com/PrathamKumar125/SD_to_HD_Video_ESRGAN.git
+```
+
+Then Clone the ESRGAN repository to `ESRGAN` folder:
+
+```
+git clone https://github.com/xinntao/ESRGAN models
 ```
 
 Replace `ESRGAN_folder` with your desired directory name.
 
 ### 2. Download Model
 Download the ESRGAN model checkpoint from Google Drive and place it into the cloned repository. [Link to Model](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecy)
+
+Move the downloaded model to `ESRGAN/models/` folder.
 
 ### 3. Install Dependencies
 Navigate to the cloned repository directory and install dependencies:
@@ -40,7 +48,7 @@ python ingest.py
 Use the ESRGAN model to enhance SD frames to HD quality:
 
 ```
-python ESRGAN_folder/test.py
+python ESRGAN/test.py
 ```
 
 ### 6. Convert HD Frames to an HD Video
